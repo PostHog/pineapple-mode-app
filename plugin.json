@@ -1,0 +1,14 @@
+{
+    "name": "Pineapple Mode",
+    "description": "Make any website better by adding pineapples",
+    "config": [
+        {
+            "key": "emoji",
+            "name": "Emoji to use",
+            "type": "string",
+            "default": "🍍",
+            "required": true,
+            "web": true
+        }
+    ]
+}
