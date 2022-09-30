@@ -1,4 +1,10 @@
 export function inject({ config, posthog }) {
+    if (config.url) {
+        const domains = config.url.split(',').map((domain) => domain.trim())
+        if (domains.length > 0 && domains.indexOf(window.location.hostname) === -1) {
+            return
+        }
+    }
     const emoji = config.emoji || '🍍'
     for (let i = 0; i < 10; i++) {
         makeItRain(emoji)
