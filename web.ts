@@ -1,6 +1,6 @@
 export function inject({ config, posthog }) {
-    if (config.url) {
-        const domains = config.url.split(',').map((domain) => domain.trim())
+    if (config.domains) {
+        const domains = config.domains.split(',').map((domain) => domain.trim())
         if (domains.length > 0 && domains.indexOf(window.location.hostname) === -1) {
             return
         }
