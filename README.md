@@ -30,4 +30,4 @@ pnpm install
 pnpm start
 ```
 
-Browse to [http://localhost:3040/](http://localhost:3040/) and hack away. 
+Then browse to [http://localhost:3040/](http://localhost:3040/), open `site.ts` in an editor, and hack away. 
