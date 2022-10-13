@@ -1,8 +1,11 @@
-# 🍍🍍🍍 Pineapple Mode 🍍🍍🍍
-
 This is a sample [PostHog Site App](https://github.com/PostHog/meta/issues/63).
 
-![localhost](https://user-images.githubusercontent.com/53387/195459925-685a1243-3f2e-4bf8-82a6-1c6db6cf35dc.gif)
+# 🍍🍍🍍 Pineapple Mode 🍍🍍🍍
+
+Because everything's better with falling pineapples.
+
+![2022-10-13 16 38 04](https://user-images.githubusercontent.com/53387/195627275-5dce555c-93f0-4011-a349-069e9fe22aab.gif)
+![2022-10-13 16 36 01](https://user-images.githubusercontent.com/53387/195626733-928d5965-df71-4477-9e23-dcfbd342d08a.gif)
 
 ### Template for your project
 
