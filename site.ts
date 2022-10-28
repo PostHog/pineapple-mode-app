@@ -88,7 +88,7 @@ function makeItRain(shadow: ShadowRoot, emoji: string, intensity: number) {
     })
     div.innerHTML = emoji
     shadow.appendChild(div)
-    const duration = 300 * (10 - intensity) + Math.random() * 3000
+    const duration = 300 * (10 - intensity) + Math.random() * 3001
     div.animate([{ top: '-10px' }, { top: `${window.innerHeight + 20}px` }], {
         duration,
         iterations: 1,
